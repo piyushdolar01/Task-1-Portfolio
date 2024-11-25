@@ -1,0 +1,88 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #333;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.header .tagline {
+    font-size: 1.2em;
+}
+
+.about, .skills, .projects, .resume, .contact {
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about {
+    text-align: center;
+}
+
+.about .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projects .project {
+    margin-bottom: 30px;
+}
+
+.projects .project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.projects .project h3 {
+    margin-top: 10px;
+}
+
+.resume a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
